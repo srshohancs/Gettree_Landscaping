@@ -16,3 +16,35 @@ body {
 .header-top .nav-link{
     color: #348e38;
 }
+
+/* Search Icon Start */
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 21px 10px;
+    background: #E8F6E9;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 1px 10px 15px #ccc;
+}
+
+.box:hover input {
+    width: 300px;
+    padding: 0 20px;
+}
+
+.box input{
+    width: 0;
+    height: 200px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box .search-icon{
+    color: #348e38;
+    font-size: 20px;
+}
+/* Search Icon End */
