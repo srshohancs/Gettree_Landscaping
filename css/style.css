@@ -17,8 +17,49 @@ body {
     color: #348e38;
 }
 
+.header-bottom .nav-item .nav-link.active, .dropdown-menu li {
+    font-size: 19px;
+    font-weight: 500;
+    color: #348e38;
+}
+
+/* Bg Light Design Start */
+.bg-light {
+    padding: 30px 15px;
+    border-radius: 20px;
+}
+/* Bg Light Design End */
+.header-bottom .nav-item .nav-link.active:hover,
+.header-bottom .nav-item .nav-link:hover {
+    font-size: 19px;
+    font-weight: 500;
+    color: #348e38;
+    border-bottom: 5px solid#348e38;
+}
+
+.header-bottom .nav-item .nav-link {
+    font-size: 19px;
+    font-weight: 500;
+    color: #181818;
+    padding: 0px 16px;
+}
+
+.header-bottom .dropdown-item:hover {
+    background: #348e38;
+    color: #fff;
+}
+
+.dropdown-divider{
+    background:  #348e38;
+}
+
+ul.dropdown-menu.show {
+    box-shadow: 1px 10px 15px #ccc;
+    border: 2px solid #348e38;
+}
+
 /* Search Icon Start */
-.box{
+.header-bottom .box{
     height: 30px;
     display: flex;
     cursor: pointer;
@@ -29,12 +70,12 @@ body {
     box-shadow: 1px 10px 15px #ccc;
 }
 
-.box:hover input {
-    width: 300px;
+.header-bottom .box:hover input {
+    width: 250px;
     padding: 0 20px;
 }
 
-.box input{
+.header-bottom .box input{
     width: 0;
     height: 200px;
     outline: none;
@@ -43,7 +84,7 @@ body {
     transition: 0.8s;
     background: transparent;
 }
-.box .search-icon{
+.header-bottom .box .search-icon{
     color: #348e38;
     font-size: 20px;
 }
