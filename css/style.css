@@ -13,6 +13,13 @@ body {
     scroll-behavior: smooth;
 }
 
+header{
+    background-image: url(../images/25.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .header-top .nav-link{
     color: #348e38;
 }
