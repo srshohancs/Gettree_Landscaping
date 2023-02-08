@@ -1,0 +1,17 @@
+/* ::::::::::::::::::::::::::::::
+    Custom css Linking Start
+::::::::::::::::::::::::::::::::*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ::::::::::::::::::::::::::::::
+    Custom css Linking End
+::::::::::::::::::::::::::::::::*/
+body {
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header-top .nav-link{
+    color: #348e38;
+}
