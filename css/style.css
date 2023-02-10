@@ -117,6 +117,30 @@ ul.dropdown-menu.show {
     font-size: 55px;
 
 }
+
+.quote,
+.read:hover {
+    background-color: #348e38;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 11px;
+    border: 2px solid #348e38;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+
+.quote:hover,
+.read{
+    background-color: transparent;
+    color: #348e38;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 11px;
+    border: 2px solid #ccc;
+    transition: 0.3s;
+}
+
 /* :::::::::::::::::::::::::::::::::::::::
     Banner part CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
