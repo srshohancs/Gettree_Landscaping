@@ -102,11 +102,13 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     Banner part CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
-.banner-part{
-    
-}
-.banner-part h4, h1{
+
+.banner-part p{
     font-family: 'Josefin Sans', sans-serif;
+    color: #348e38;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5px;
 
 }
 .banner-part h1{
