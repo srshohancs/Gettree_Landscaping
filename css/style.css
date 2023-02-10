@@ -41,7 +41,7 @@ header{
     font-size: 19px;
     font-weight: 500;
     color: #348e38;
-    border-bottom: 5px solid#348e38;
+    border-top: 5px solid#348e38;
 }
 
 .header-bottom .nav-item .nav-link {
