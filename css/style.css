@@ -141,6 +141,10 @@ ul.dropdown-menu.show {
     transition: 0.3s;
 }
 
+.right-banner img{
+    width: 100%;
+}
+
 /* :::::::::::::::::::::::::::::::::::::::
     Banner part CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
