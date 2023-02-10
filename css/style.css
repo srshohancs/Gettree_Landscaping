@@ -3,6 +3,7 @@
 ::::::::::::::::::::::::::::::::*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 /* ::::::::::::::::::::::::::::::
     Custom css Linking End
@@ -96,3 +97,22 @@ ul.dropdown-menu.show {
     font-size: 20px;
 }
 /* Search Icon End */
+
+
+/* :::::::::::::::::::::::::::::::::::::::
+    Banner part CSS code Start
+::::::::::::::::::::::::::::::::::::::::*/
+.banner-part{
+    
+}
+.banner-part h4, h1{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.banner-part h1{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+/* :::::::::::::::::::::::::::::::::::::::
+    Banner part CSS code End
+::::::::::::::::::::::::::::::::::::::::*/
