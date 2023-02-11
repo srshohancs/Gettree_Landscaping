@@ -153,7 +153,36 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     Planning part CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
+.landscaping{
+    align-items: center;
+    box-shadow: 10px 10px 15px #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    height: 10em;
+    transition: 0.5s;
+}
 
+.landscaping:hover{
+    margin: -25px 0px;
+    transform: 5px;
+}
+
+.landscaping img{
+    width: 80%;
+}
+
+.landscaping h1{
+    font-size: 21px;
+    font-weight: 600;
+    color: #0f4229;#348e38
+    align-items: center;
+}
+
+.landscaping p{
+    color: #348e38;
+    font-size: 15px;
+    align-items: center;
+}
 /* :::::::::::::::::::::::::::::::::::::::
     Planning part CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
