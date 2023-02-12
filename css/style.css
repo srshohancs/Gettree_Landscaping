@@ -190,7 +190,14 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
+.about-section{
 
+}
+
+.aboutleft img{
+    width: 100%;
+    border-radius: 50%;
+}
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
