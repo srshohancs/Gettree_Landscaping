@@ -212,6 +212,32 @@ ul.dropdown-menu.show {
     font-size: 50px;
 
 }
+
+
+.about_left_part{
+    align-items: center;
+    padding: 100px 10px 80px;
+    border-radius: 15px;
+    height: 10em;
+    transition: 0.5s;
+}
+
+.about_left_part img{
+    width: 80%;
+}
+
+.about_left_part h1{
+    font-size: 21px;
+    font-weight: 600;
+    color: #0f4229;
+    align-items: center;
+}
+
+.about_left_part p{
+    color: #348e38;
+    font-size: 15px;
+    align-items: center;
+}
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
