@@ -138,7 +138,7 @@ ul.dropdown-menu.show {
     font-weight: 600;
     padding: 15px 30px;
     border-radius: 11px;
-    border: 2px solid #ccc;
+    border: 2px solid #348e38;
     transition: 0.3s;
 }
 
@@ -241,3 +241,41 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: true;
+  }
+  
+  .number {
+    transition: --num 1s;
+    counter-set: num var(--num);
+    font: 800 42px system-ui;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .number::after {
+    content: counter(num);
+  }
+ .experience-count:hover, .number:hover {
+    --num: 20;
+  }
+  
+  .experience-count {
+    background-color: #348e38;
+    padding: 15px 28px;
+    width: 50%;
+    border-radius: 20px;
+}
+  .count_part{
+    border: 1px solid #fff;
+    padding: 12px 9px 0px 8px;
+    border-radius: 10px;
+  }
+
+  .count-right h4{
+    font: 600 30px system-ui;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    }
