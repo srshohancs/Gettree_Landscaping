@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* ::::::::::::::::::::::::::::::
     Custom css Linking End
@@ -190,18 +191,26 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
-.about-section{
+.background-img{
     background-image: url(../images/26.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
+    position: relative;
+    top: -145px;
 }
 
-.aboutleft{
-    
-}
-.aboutleft img{
+#aboutimg{
     width: 100%;
     border-radius: 50%;
+    position: relative;
+    top: 196px;
+}
+
+.about-right h1{
+    font-family: 'Jost', sans-serif;
+    color: #181818;
+    font-size: 50px;
+
 }
 /* :::::::::::::::::::::::::::::::::::::::
     About Section CSS code End
