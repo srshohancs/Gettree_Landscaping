@@ -281,3 +281,78 @@ ul.dropdown-menu.show {
     About Section CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
 
+/* :::::::::::::::::::::::::::::::::::::::
+    what_do_section CSS code Start
+::::::::::::::::::::::::::::::::::::::::*/
+.what_do_section{ 
+    background-image: linear-gradient(to left, rgba(119, 161, 87, 0.2), rgb(196 253 211 / 71%)) ,url(../images/13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.what_do_section p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #348e38;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+.what_do_section h1{
+    font-family: 'Jost', sans-serif;
+    color: #181818;
+    font-size: 50px;
+
+}
+
+.do_first{
+    align-items: center;
+    background-color: #4fac54;
+    box-shadow: 1px 4px 13px #ccc;
+    padding: 100px 10px 80px;
+    border-radius: 15px;
+    height: 10em;
+    transitrtion: 0.5s;
+}
+
+.do_first:hover{
+    background-image: linear-gradient(to left, rgba(119, 161, 87, 0.2), rgb(21 33 50 / 87%)) ,url(../images/30.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.do_first img{
+    width: 80%;
+}
+
+.do_first h1{
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    align-items: center;
+}
+
+#do_paragraph{
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+}
+
+#read{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+/* :::::::::::::::::::::::::::::::::::::::
+    what_do_section CSS code End
+::::::::::::::::::::::::::::::::::::::::*/
+
