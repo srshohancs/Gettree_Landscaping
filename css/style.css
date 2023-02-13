@@ -103,7 +103,7 @@ ul.dropdown-menu.show {
     Banner part CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
 
-.banner-part p{
+.banner-part p, .about-right p{
     font-family: 'Josefin Sans', sans-serif;
     color: #348e38;
     font-size: 18px;
@@ -191,9 +191,14 @@ ul.dropdown-menu.show {
     About Section CSS code Start
 ::::::::::::::::::::::::::::::::::::::::*/
 .about-section{
-
+    background-image: url(../images/26.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.aboutleft{
+    
+}
 .aboutleft img{
     width: 100%;
     border-radius: 50%;
