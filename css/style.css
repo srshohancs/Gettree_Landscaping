@@ -213,7 +213,6 @@ ul.dropdown-menu.show {
 
 }
 
-
 .about_left_part{
     align-items: center;
     padding: 100px 10px 80px;
@@ -238,44 +237,47 @@ ul.dropdown-menu.show {
     font-size: 15px;
     align-items: center;
 }
-/* :::::::::::::::::::::::::::::::::::::::
-    About Section CSS code End
-::::::::::::::::::::::::::::::::::::::::*/
 
 @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: true;
-  }
+}
   
-  .number {
+.number {
     transition: --num 1s;
     counter-set: num var(--num);
     font: 800 42px system-ui;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-  }
+}
+
   .number::after {
     content: counter(num);
-  }
- .experience-count:hover, .number:hover {
+}
+.experience-count:hover, .number:hover {
     --num: 20;
-  }
+}
   
-  .experience-count {
+.experience-count {
     background-color: #348e38;
     padding: 15px 28px;
     width: 50%;
     border-radius: 20px;
 }
-  .count_part{
+.count_part{
     border: 1px solid #fff;
     padding: 12px 9px 0px 8px;
     border-radius: 10px;
-  }
+}
 
-  .count-right h4{
+.count-right h4{
     font: 600 30px system-ui;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::
+    About Section CSS code End
+::::::::::::::::::::::::::::::::::::::::*/
+
