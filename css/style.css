@@ -380,10 +380,9 @@ ul.dropdown-menu.show {
     font-size: 50px;
 
 }
-/* :::::::::::::::::::::::::::::::::::::::
-    Team-section CSS code End
-::::::::::::::::::::::::::::::::::::::::*/
 
+
+/* Card Design Start */
 .card-section{
     display: flex;
     justify-content: center;
@@ -512,3 +511,9 @@ ul.dropdown-menu.show {
     color: #999;
     background: #fff;
 }
+
+/* Card Design End */
+
+/* :::::::::::::::::::::::::::::::::::::::
+    Team-section CSS code End
+::::::::::::::::::::::::::::::::::::::::*/
