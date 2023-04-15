@@ -364,6 +364,7 @@ ul.dropdown-menu.show {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .team-top  p{
@@ -517,3 +518,9 @@ ul.dropdown-menu.show {
 /* :::::::::::::::::::::::::::::::::::::::
     Team-section CSS code End
 ::::::::::::::::::::::::::::::::::::::::*/
+
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
